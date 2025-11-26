@@ -151,9 +151,7 @@ export default function SignupPage() {
                         <form onSubmit={handleSubmit} className="space-y-4">
                             {/* Name */}
                             <div>
-                                <label className="block text-sm text-white/80 mb-1">
-                                    Name
-                                </label>
+                                <label className="block text-sm text-white/80 mb-1">Name</label>
                                 <input
                                     type="text"
                                     name="name"
@@ -199,9 +197,7 @@ export default function SignupPage() {
                                     placeholder="At least 6 characters"
                                 />
                                 {errors.password && (
-                                    <p className="text-xs text-red-300 mt-1">
-                                        {errors.password}
-                                    </p>
+                                    <p className="text-xs text-red-300 mt-1">{errors.password}</p>
                                 )}
                             </div>
 
@@ -219,9 +215,7 @@ export default function SignupPage() {
                                     placeholder="+91 98765 43210"
                                 />
                                 {errors.contact && (
-                                    <p className="text-xs text-red-300 mt-1">
-                                        {errors.contact}
-                                    </p>
+                                    <p className="text-xs text-red-300 mt-1">{errors.contact}</p>
                                 )}
                             </div>
 
@@ -328,10 +322,7 @@ export default function SignupPage() {
                         {/* Login link */}
                         <p className="text-xs text-white/60 mt-4 text-center">
                             Already have an account?{" "}
-                            <Link
-                                to="/login"
-                                className="text-[#1BD69C] hover:text-[#9fffe0]"
-                            >
+                            <Link to="/login" className="text-[#1BD69C] hover:text-[#9fffe0]">
                                 Login
                             </Link>
                         </p>

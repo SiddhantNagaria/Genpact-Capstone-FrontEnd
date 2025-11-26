@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import FiltersSidebar from "../components/explore/FiltersSidebar";
 import ResultsGrid from "../components/explore/ResultsGrid";
 import Navbar from "../components/Navbar";
-import SearchBar from "../components/SearchBar";
+import SearchBar from "../components/explore/Searchbar";
 import Footer from "../components/Footer";
 
 // TEMP MOCK DATA – replace later with backend API
