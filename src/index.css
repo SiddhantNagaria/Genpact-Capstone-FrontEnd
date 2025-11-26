@@ -21,3 +21,16 @@
   display: flex;
   animation: scrollX 18s linear infinite; /* slow + premium flow */
 }
+
+/* Hamburger menu animation */
+/* slide in from right animation */
+
+@keyframes slideInRight {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-slide-in {
+  animation: slideInRight 0.25s ease-out;
+}
+

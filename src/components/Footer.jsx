@@ -30,7 +30,7 @@ export default function Footer() {
                     <h4 className="text-white font-medium text-sm">Explore</h4>
                     <ul className="mt-2 space-y-1 text-white/60 text-xs">
                         <li><Link className="hover:text-white transition" to="/explore">Skills</Link></li>
-                        <li><Link className="hover:text-white transition" to="/mentors">Mentors</Link></li>
+                        {/* <li><Link className="hover:text-white transition" to="/mentors">Mentors</Link></li> */}
                         <li><Link className="hover:text-white transition" to="/sessions">Sessions</Link></li>
                         <li><Link className="hover:text-white transition" to="/reviews">Reviews</Link></li>
                     </ul>
